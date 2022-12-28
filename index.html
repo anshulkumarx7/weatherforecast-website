@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-size: 1.2rem;
+            background-color:url("https://unsplash.com/photos/LtWFFVi1RXQ");
+            background-size:50%;
+            background-repeat: repeat-x;
+        }
+        .container{
+            max-width: 600px;
+            margin:200px auto;
+            background-color:whitesmoke;
+        }.form-wrap{
+            padding: 2rem;
+            padding-top: 1rem;
+        }
+        .form-wrap h1{
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+        .form-wrap input{
+            width:100%;
+            padding:0.4rem;
+        }
+        .form-wrap button{
+            padding: 0.3rem;
+            display:block;
+            width:80%;
+            background-color:green;
+            margin: 0.5rem auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrap">
+            <h1>Weather Forecast</h1>
+            <form action="/" method="post">
+            <input type="text" name="city" placeholder="Enter city name">
+            <button type="submit" name="submit">Go</button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
